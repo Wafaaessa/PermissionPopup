@@ -1,0 +1,96 @@
+body{
+  font-family: 'Poppins';
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.modal {
+  background: #fff;
+  border-radius: 25px;
+  width: 620px;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  outline: none;
+
+}
+
+h2{
+  color: #28359B;
+
+}
+h1{
+  text-align: center;
+  color: #28359B;
+ 
+}
+.welcome{
+  text-align: center;
+  color: #28359B;
+
+}
+.popup-body {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.icon {
+  max-width: 200px;
+  height: auto;
+  margin-right: 20px;
+}
+.info{
+  margin-left: 2px;
+  margin-right: 2px;
+  width: 18px; 
+  height: 18px;
+
+}
+
+.text {
+  flex: 1;
+  
+}
+
+.text p {
+  font-size: 18px;
+  color: #28359B;
+  font-weight: 600;
+  margin-left: 20px;
+
+
+}
+
+
+.text ol {
+  color: #28359B;
+
+}
+
+.text li {
+  margin-bottom: 20px;
+}
+
+.actionButton {
+  color: #E01B84;
+  background-color: #FFEFF8;
+  border: 1px solid #E01B84;
+  border-radius: 10px;
+  font-size: 18px;
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+  margin-top: 20px;
+}
