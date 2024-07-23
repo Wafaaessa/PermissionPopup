@@ -94,3 +94,25 @@ h1{
   cursor: pointer;
   margin-top: 20px;
 }
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.endLiveButton {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  
+}
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; 
+}
